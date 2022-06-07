@@ -1,0 +1,56 @@
+@import url('../../style.css');
+
+
+@mixin outer($width, $height, $background, $opacity) {
+    width: $width;
+    height: $height;
+    background: $background;
+    opacity: $opacity;
+}
+
+@mixin inner($width, $position, $top, $height, $color, $text-align, $opacity, $font-size) {
+    width: $width;
+    position: $position;
+    top: $top;
+    height: $height;
+    color: $color;
+    text-align: $text-align;
+    opacity: $opacity;
+    font-size: $font-size;
+}
+
+
+// mobile
+@media (max-width: 320px) {
+    .outerOfferBanner {
+        @include outer(100%, 40px, var(--cape-palliser-a67744) 0% 0% no-repeat padding-box, 1)
+    }
+
+    .innerOfferBanner {
+        @include inner(100%, relative, 10px, 20px, var(--beige-f7f5e6), center, 1, 10px);
+    }
+
+}
+
+// Tablet 
+@media screen and (min-width:321px)and(max-width: 768px) {
+    .outerOfferBanner {
+        @include outer(100%, 40px, var(--cape-palliser-a67744) 0% 0% no-repeat padding-box, 1)
+    }
+
+    .innerOfferBanner {
+        @include inner(100%, relative, 10px, 20px, var(--beige-f7f5e6), center, 1, 12px);
+    }
+}
+
+// Desktop, Desktop-md, Desktop-lg, Desktop-xl
+@media screen and (min-width:769px)and (max-width:1920px) {
+    .outerOfferBanner {
+        @include outer(100%, 40px, var(--cape-palliser-a67744) 0% 0% no-repeat padding-box, 1)
+    }
+
+    .innerOfferBanner {
+        @include inner(100%, relative, 10px, 20px, var(--beige-f7f5e6), center, 1, 18px);
+    }
+
+}

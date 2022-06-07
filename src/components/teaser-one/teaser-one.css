@@ -1,0 +1,107 @@
+@import url("../../style.css");
+.mainTeaser {
+  width: 100%;
+  background: var(--como-547665) 0% 0% no-repeat padding-box;
+}
+
+@media screen and (max-width: 768px) {
+  .mainTeaser {
+    display: block;
+    height: auto;
+  }
+  .imgTeaser, .textTeaser {
+    width: 100%;
+  }
+  .imgTeaser {
+    height: 731px;
+    background: url("../../Assets/man-in-blue-top-2830332@3x.png") top left no-repeat;
+    background-size: cover;
+    opacity: 1;
+  }
+  .text-1 {
+    width: 100%;
+    height: auto;
+    padding: 10% 20% 0% 20%;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-40)/55px var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--white-ffffff);
+    text-align: left;
+    opacity: 1;
+  }
+  .text-2 {
+    width: 100%;
+    height: auto;
+    padding: 5% 20% 0% 20%;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/var(--unnamed-line-spacing-24) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--athens-gray-eef2f4);
+    text-align: left;
+    opacity: 1;
+  }
+  .shopMoreTeaser {
+    padding: 2%;
+    margin: 5% 30% 10% 20%;
+    width: 25%;
+    height: 8%;
+    background: var(--como-547665) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--white-ffffff);
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--beige-f7f5e6);
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1920px) {
+  .mainTeaser {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 731px;
+  }
+  .imgTeaser, .textTeaser {
+    width: 50%;
+  }
+  .textTeaser {
+    opacity: 1;
+    margin: 15% 0% 0% 0%;
+  }
+  .imgTeaser {
+    background: url("../../Assets/man-in-blue-top-2830332@3x.png") top left no-repeat;
+    background-size: 145% 155%;
+    opacity: 1;
+  }
+  .text-1 {
+    width: 100%;
+    height: auto;
+    padding: 0% 15% 0% 20%;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-40)/55px var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--white-ffffff);
+    text-align: left;
+    opacity: 1;
+  }
+  .text-2 {
+    width: 100%;
+    height: auto;
+    padding: 5% 20% 0% 20%;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/var(--unnamed-line-spacing-24) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--athens-gray-eef2f4);
+    text-align: left;
+    opacity: 1;
+  }
+  .shopMoreTeaser {
+    margin: 5% 0% 0% 20%;
+    width: 35%;
+    height: 8%;
+    background: var(--como-547665) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--white-ffffff);
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--beige-f7f5e6);
+    opacity: 1;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "one": [
+        {
+            "tag": "15% off",
+            "img": "",
+            "hoverImg": "",
+            "title": "abc",
+            "description": "xyz",
+            "price": "$24.99"
+        }
+    ],
+    "two": [
+        {
+            "tag": "15% off",
+            "img": "",
+            "hoverImg": "",
+            "title": "abc",
+            "description": "xyz",
+            "price": "$24.99"
+        }
+    ],
+    "three": [
+        {
+            "tag": "15% off",
+            "img": "",
+            "hoverImg": "",
+            "title": "abc",
+            "description": "xyz",
+            "price": "$24.99"
+        }
+    ]
+}

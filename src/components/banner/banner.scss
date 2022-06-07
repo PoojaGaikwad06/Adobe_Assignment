@@ -1,0 +1,143 @@
+@import url("../../style.css");
+
+@media screen and (max-width: 768px) {
+
+    .main-banner {
+        width: 100%;
+        height: auto;
+        background-color: #EEF3F4;
+    }
+
+    .mob-banner {
+        display: block;
+        width: 100%;
+        height: 500px;
+        background: url(../../Assets/mob-img.png) top left no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .banner-content {
+
+        height: auto;
+        width: 100%;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .new-content {
+       display: none;
+    }
+
+    .banner-title {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-48)/var(--unnamed-line-spacing-58) var(--unnamed-font-family-proxima-nova);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--oxford-blue-354e57);
+        text-align: left;
+        opacity: 1;
+    }
+
+    .banner-discription {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-proxima-nova);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--oxford-blue-354e57);
+        text-align: left;
+        opacity: 1;
+    }
+
+    .banner-btn {
+        width: 30%;
+        height: 8%;
+        text-align: center;
+        border: 1px solid var(--oxford-blue-354e57);
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 14px/16px var(--unnamed-font-family-proxima-nova);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--rangitoto-2e2e22);
+        opacity: 1;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1920px) {
+    .mob-banner {
+        display: none;
+    }
+
+    .main-banner {
+        width: 100%;
+        height: 700px;
+        background: url("../../Assets/Banimg.png") top left no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .banner-content {
+
+        height: auto;
+        width: 50%;
+        padding: 5%;
+        // border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .new-content {
+        height: 30px;
+        width: 50px;
+        padding: 10px;
+        margin-bottom: 10px;
+        font: var(--unnamed-font-style-normal) normal 600 12px/14px var(--unnamed-font-family-proxima-nova);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--oxford-blue-354e57);
+        text-align: left;
+        opacity: 1;
+        background: var(--white-ffffff) 0% 0% no-repeat padding-box;
+
+    }
+
+    .banner-title {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-48)/var(--unnamed-line-spacing-58) var(--unnamed-font-family-proxima-nova);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--oxford-blue-354e57);
+        text-align: left;
+        opacity: 1;
+    }
+
+    .banner-discription {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        padding-right: 30%;
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-proxima-nova);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--oxford-blue-354e57);
+        text-align: left;
+        opacity: 1;
+    }
+
+    .banner-btn {
+        width: 30%;
+        height: 8%;
+        text-align: center;
+        border: 1px solid var(--oxford-blue-354e57);
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 14px/16px var(--unnamed-font-family-proxima-nova);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--rangitoto-2e2e22);
+        opacity: 1;
+        padding: 10px;
+        cursor: pointer;
+
+    }
+}
